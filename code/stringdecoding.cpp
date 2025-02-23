@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-#include "StackType.h"  // Assuming StackType.h is already provided
+#include "StackType.h" 
+#include "QueType.h"  
 
 std::string decode(std::string exp, std::string code) {
     std::string result = "";  // To store the final decoded string
